@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
 public class Main {
+    public static final int MAX_LIMIT = 100;
+    public static final int MIN_INT = 1;
     public static int generateRandomValue(){
         int value = (int) (1 + Math.random()*100);
         return value;
